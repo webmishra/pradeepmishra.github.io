@@ -22,7 +22,7 @@
         display:table;width:100%;
         height:auto;padding-top:8rem;
         padding-bottom:8rem;
-        background:#000000 url(../img/pradeep-mishra.jpg);background-position:right;
+        background:#000000 url(../img/pradeep-mishra.jpg);background-position:right bottom;
         background-repeat:no-repeat;}
         .masthead h1{font-size:4rem;margin:0;padding:0}@media (min-width:992px){
             .masthead{height:100vh}
@@ -30,4 +30,4 @@
  .bg-primary{background-color:#1d809f!important}
  .text-primary{color:#1d809f!important}
  .text-secondary{color:#ecb807!important}
- .btn-space{margin-bottom: 5px;}
+ @media (max-width:600px){.main-title{font-size: 0.6em;}.main-title-top{font-size: 0.8em;}}
